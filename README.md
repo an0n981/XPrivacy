@@ -399,8 +399,10 @@ Upgrading
 * **Do not remove the previous version** (or else your settings will get lost)
 * Download the new version
 * Install the new version over the previous version
-* Start the new version once (else Android will not send the boot completed event)
-* Wait until the Xposed installer recognizes the update (else XPrivacy might not be enabled)
+* Wait until the Xposed Installer recognizes the update (else XPrivacy might not be enabled)
+* Open the Xposed Installer, go to Modules and uncheck then recheck XPrivcay
+* Open XPrivacy by pressing on the XPrivacy module name
+* If you receive a message that XPrivacy is not enabled in XPosed, press okay and redo the last two steps
 * Reboot your device
 * Wait until the XPrivacy update service has been completed (showing 100%)
 
